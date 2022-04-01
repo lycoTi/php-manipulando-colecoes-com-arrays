@@ -1,13 +1,12 @@
 <?php
 
 $notas = [
-    "Ana" => 10,
     "João" => 8,
-    "Maria" => 9,
     "Roberto" => 7,
+    "Maria" => 9,
     "Vinicius" => 6,
+    "Ana" => 10,
 ];
 
-rsort($notas);
+krsort($notas);
 var_dump($notas);
-dsfdssdfsdfs
