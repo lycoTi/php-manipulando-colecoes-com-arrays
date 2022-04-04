@@ -22,6 +22,9 @@ var_dump(in_array(10, $notas, true));
 
 echo "Quem tirou nota 10" . PHP_EOL;
 var_dump(array_search(10, $notas, true));
+
+var_dump((int) "qalquer coisa");
+
 //array_key_exists = verifica se a chave existe
 // in_array = verifica se o valor existe
 // isset = verifica se a chave existe e não é nula
